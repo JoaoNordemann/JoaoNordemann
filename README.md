@@ -24,17 +24,17 @@ API desenvolvida em FastAPI servindo um modelo Open-Source (Mistral-7B). Utiliza
 📚 **[RAG Knowledge Engine: Assistente Especialista de Documentos](link_do_repo)**
 Sistema completo de *Retrieval-Augmented Generation*. Transforma PDFs complexos (livros de regras e manuais de engenharia) em embeddings armazenados via **ChromaDB**, conectando um LLM para responder perguntas exclusivamente baseadas no contexto recuperado, reduzindo a zero a alucinação.
 
-🧠 **[NLP Fine-Tuned Model (Hugging Face Hub)](link_do_hugging_face)**
+🧠 **[NLP Fine-Tuned Model (Hugging Face Hub)](https://huggingface.co/jnordemann)**
 Modelo compacto ajustado através de PEFT/LoRA para classificação e análise de sentimentos em domínios específicos. Treinado, empacotado com Model Card e disponibilizado publicamente para inferência na nuvem.
 
-🛒 **[Shopee Manager: Automação & Análise de Lucratividade](link_do_repo)**
+🛒 **[Shopee Manager: Automação & Análise de Lucratividade](https://github.com/JoaoNordemann/shopee_app)**
 Aplicação Desktop de ponta a ponta (Python, PySide6, Playwright, GraphQL) desenvolvida para curadoria de produtos. Avalia scores de lucratividade de forma autônoma e orquestra anúncios diretamente em canais do WhatsApp.
 
 ---
 
 ### 🌐 Conecte-se comigo
 
-* 💼 **LinkedIn:** [linkedin.com/in/joaonordemann]([https://linkedin.com/in/joaonordemann](https://www.linkedin.com/in/joão-marcelo-constantino-nordemann-a238a2260/))
-* 🤖 **Hugging Face:** [hf.co/seu-usuario-aqui]([https://huggingface.co/seu-usuario-aqui](https://huggingface.co/jnordemann))
-* 📊 **Kaggle:** [kaggle.com/seu-usuario-aqui](https://kaggle.com/seu-usuario-aqui)
+* 💼 **LinkedIn:** [João Marcelo C. Nordemann](https://www.linkedin.com/in/joão-marcelo-constantino-nordemann-a238a2260/)
+* 🤖 **Hugging Face:** [hf.co/jnordemann](https://huggingface.co/jnordemann)
+* 📊 **Kaggle:** [kaggle.com/jnordemann](https://www.kaggle.com/jnordemann)
 * ✉️ **Contato:** jmc.nordemann@gmail.com
