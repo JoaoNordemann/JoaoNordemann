@@ -35,9 +35,9 @@ APIs REST · Bancos de dados relacionais
 ## Projetos em destaque
 
 <table>
-<tr><td colspan="2"><strong><a href="https://github.com/JoaoNordemann/partner-copilot">Partner Copilot ↗</a></strong></td></tr>
+<tr><td colspan="2"><strong><a href="https://github.com/JoaoNordemann/partner-copilot">Partner Copilot ↗</a></strong><br /><br />Copiloto RAG para investigar avaliações sintéticas de pedidos de restaurantes, com citações verificadas e abstenção quando falta evidência.</td></tr>
 <tr><td width="50%" valign="top"><strong><a href="https://github.com/JoaoNordemann/rag-knowledge-engine">RAG Knowledge Engine ↗</a></strong><br /><br />Assistente de PDFs que recupera contexto via ChromaDB.</td><td width="50%" valign="top"><strong><a href="https://github.com/JoaoNordemann/llm-4bit-quantized-inference">LLM 4-bit Inference ↗</a></strong><br /><br />API em FastAPI para inferência do Mistral-7B com quantização NF4.</td></tr>
-<tr><td width="50%" valign="top"><strong><a href="https://github.com/JoaoNordemann/shopee_app">Shopee Manager ↗</a></strong><br /><br />Aplicativo desktop para avaliar a lucratividade de produtos e automatizar a divulgação.</td><td width="50%" valign="top"><strong><a href="https://github.com/JoaoNordemann/casual-attention">Casual Attention ↗</a></strong></td></tr>
+<tr><td width="50%" valign="top"><strong><a href="https://github.com/JoaoNordemann/shopee_app">Shopee Manager ↗</a></strong><br /><br />Aplicativo desktop para avaliar a lucratividade de produtos e automatizar a divulgação.</td><td width="50%" valign="top"><strong><a href="https://github.com/JoaoNordemann/casual-attention">Causal Self-Attention ↗</a></strong><br /><br />Implementação de autoatenção causal em PyTorch, com testes e benchmark comparando a versão manual com SDPA.</td></tr>
 </table>
 
 ## Atividade no GitHub
