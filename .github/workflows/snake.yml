@@ -1,0 +1,29 @@
+name: Snake de contribuições
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/snake.yml']
+  schedule:
+    - cron: '23 6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: contribution-snake
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: JoaoNordemann
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=%23EF6B79&color_dots=%232B2529,%23481A22,%23732432,%23A63B4C,%23EF6B79
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
